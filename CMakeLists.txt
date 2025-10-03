@@ -56,6 +56,7 @@ ADD_DEFINITIONS(
 )
 
 SET(SOURCE_FILES
+    src/api/CurlRestClient.cpp
     src/log/ConsoleLogger.cpp
     src/log/SqlLiteLogger.cpp
     src/Plugin.cpp
@@ -94,4 +95,4 @@ INCLUDE(external/CMakeLists.txt)
 
 SET(gtest_force_shared_crt on)
 INCLUDE(CTest)
-ADD_SUBDIRECTORY(tests)
+ADD_SUBDIRECTORY(src/tests)
