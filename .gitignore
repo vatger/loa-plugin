@@ -37,3 +37,6 @@ out/
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeUserPresets.json
